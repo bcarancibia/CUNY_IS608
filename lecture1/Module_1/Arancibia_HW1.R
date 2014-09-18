@@ -9,7 +9,7 @@ require(data.table)
 
 
 #this will need to change based on where you running the script since this is my local machine
-data.file <- "/Users/bcarancibia/CUNY_IS_608/Module_1/data/inc5000_data.csv"
+data.file <- "/lecture1/data/inc5000_data.csv"
 raw.data <- read.csv (file = data.file, header = TRUE, sep = ",")
 
 
